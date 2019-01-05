@@ -53,22 +53,22 @@ class RotateSolution {
     	int temp;
     	while(begin < end) {
     		temp = array[begin];
-    		array[begin] = array[end];
-    		array[end]  = temp;
+    		array[begin++] = array[end];
+    		array[end--]  = temp;
     	}
     }
 }
 
 public class Rotate{
 	public static void main(String[] args) {
-		int[] arr = {1,2};
+		int[] arr = {1,2,3,4,5,6,7};
 		System.out.println(Arrays.toString(arr));
 //		RotateSolution solution = new RotateSolution();
 //		solution.reverse(arr, 0, arr.length - 5);
 //		System.out.println(Arrays.toString(arr));
 		
 		RotateSolution solution = new RotateSolution();
-		solution.rotate(arr, 0);
+		solution.rotate(arr, 3);
 		System.out.println(Arrays.toString(arr));
 	}
 }
