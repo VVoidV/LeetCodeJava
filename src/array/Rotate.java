@@ -51,15 +51,12 @@ class RotateSolution {
     
     public void reverse(int[] array, int begin, int end) {
     	int temp;
-    	for(int i = 0; i <= (end - begin) / 2 ; i++) {
-    		temp = array[begin + i];
-    		array[begin + i] = array[end - i];
-    		array[end - i] = temp;
+    	while(begin < end) {
+    		temp = array[begin];
+    		array[begin] = array[end];
+    		array[end]  = temp;
     	}
     }
-    
-    
-
 }
 
 public class Rotate{
@@ -71,7 +68,7 @@ public class Rotate{
 //		System.out.println(Arrays.toString(arr));
 		
 		RotateSolution solution = new RotateSolution();
-		solution.rotate(arr, 4);
+		solution.rotate(arr, 0);
 		System.out.println(Arrays.toString(arr));
 	}
 }
