@@ -1,4 +1,4 @@
-package array;
+package primaryAlgorithms.array;
 import java.util.*;
 /**
  * <div class="question-detail"><div class="question-description__3U1T"><div class="translation-tool__3Ffj"><span class="" data-toggle="tooltip" data-placement="left" data-original-title="显示英文" aria-hidden="true" style="cursor: pointer;"><div class="switch-base__1Zql" data-on="false"><div class="toggle__3ZBJ"></div></div></span></div><div><p>给定两个数组，编写一个函数来计算它们的交集。</p>

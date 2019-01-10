@@ -1,4 +1,4 @@
-package array;
+package primaryAlgorithms.array;
 
 
 /**48. Ðý×ªÍ¼Ïñ

@@ -1,4 +1,4 @@
-package array;
+package primaryAlgorithms.array;
 import java.util.*;
 /**
  * <div class="content__eAC7"><div><p>给定一个由<strong>整数</strong>组成的<strong>非空</strong>数组所表示的非负整数，在该数的基础上加一。</p>

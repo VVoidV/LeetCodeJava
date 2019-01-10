@@ -1,4 +1,4 @@
-package array;
+package primaryAlgorithms.array;
 
 import java.util.*;
 
