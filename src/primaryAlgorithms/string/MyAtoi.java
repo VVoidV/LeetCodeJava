@@ -86,8 +86,11 @@ public class MyAtoi {
         	for( ; index < noWhiteStr.length(); index++) {
         		char digit = noWhiteStr.charAt(index);
         		int num = digit - '0';
+        		
+        		// 遇到非数字，结束转换并返回
         		if(!Character.isDigit(digit)) break;
         		
+        		// 判断下一次计算是否导致溢出
         		if(result > (Integer.MAX_VALUE - num) / 10) return Integer.MAX_VALUE;
         		result = result * 10 + num;
         	}
