@@ -1,6 +1,5 @@
 package primaryAlgorithms.string;
 
-import java.util.*;
 /**
  * <div><p>请你来实现一个&nbsp;<code>atoi</code>&nbsp;函数，使其能将字符串转换成整数。</p>
 

@@ -42,7 +42,6 @@ public class CountAndSay {
         if(n == 1){
             return str;
         }
-
         while(n > 1){
             str = count(str);
             n--;
@@ -72,3 +71,6 @@ public class CountAndSay {
         return next.toString();
     }
 }
+
+
+
